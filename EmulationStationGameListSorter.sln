@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmulationStationGameListSorter", "EmulationStationGameListSorter\EmulationStationGameListSorter.csproj", "{B62A0A7E-3AAC-452C-BB88-8CB3DFC4554B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B62A0A7E-3AAC-452C-BB88-8CB3DFC4554B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62A0A7E-3AAC-452C-BB88-8CB3DFC4554B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62A0A7E-3AAC-452C-BB88-8CB3DFC4554B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62A0A7E-3AAC-452C-BB88-8CB3DFC4554B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {695FB84B-E67A-415A-A243-B80BA3D700E8}
+	EndGlobalSection
+EndGlobal
