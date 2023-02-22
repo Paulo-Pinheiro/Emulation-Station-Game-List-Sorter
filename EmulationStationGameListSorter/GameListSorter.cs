@@ -13,7 +13,7 @@ namespace EmulationStationGameListSorter
     public class GameListSorter
     {
         [XmlElement("gameList")]
-        public GameList GameList { get; set; } = new GameList();
+        public GameList Games { get; set; } = new GameList();
 
         static protected int SaveCollection(List<Game> games, string filename, string pathROMs)
         {
@@ -41,35 +41,53 @@ namespace EmulationStationGameListSorter
             return result;
         }
 
-        public int SaveCollectionByReleaseYears(string filename, string pathROMs, int start, int end)
+        public int SaveCollectionByGenre(string filename, string pathROMs, string genre, bool xml)
         {
-            List<Game> games = GameList.GetGamesByReleaseYear(start, end);
+            List<Game> games = Games.GetGamesByGenre(genre);
+
+            if (xml) SaveCollectionToXml(filename, games);
 
             return SaveCollection(games, filename, pathROMs);
         }
 
-        public int SaveCollectionByGenre(string filename, string pathROMs, string genre)
+        public int SaveCollectionByDeveloper(string filename, string pathROMs, string developer, bool xml)
         {
-            List<Game> games = GameList.GetGamesByGenre(genre);
+            List<Game> games = Games.GetGamesByDeveloper(developer);
+
+            if(xml) SaveCollectionToXml(filename, games);
 
             return SaveCollection(games, filename, pathROMs);
         }
 
-        public int SaveCollectionByDeveloper(string filename, string pathROMs, string developer)
+      
+        public int SaveCollectionByPublisher(string filename, string pathROMs, string publisher, bool xml)
         {
-            List<Game> games = GameList.GetGamesByDeveloper(developer);
+            List<Game> games = Games.GetGamesByPublisher(publisher);
+
+            if (xml) SaveCollectionToXml(filename, games);
 
             return SaveCollection(games, filename, pathROMs);
         }
 
-        public int SaveCollectionByPublisher(string filename, string pathROMs, string publisher)
+        public int SaveCollectionByRating(string filename, string pathROMs, double start, double end, bool xml)
         {
-            List<Game> games = GameList.GetGamesByPublisher(publisher);
+            List<Game> games = Games.GetGamesByRating(start, end);
+
+            if (xml) SaveCollectionToXml(filename, games);
 
             return SaveCollection(games, filename, pathROMs);
         }
 
-        static public GameListSorter? DeserializeXml<T>(string gameListFilename)
+        public int SaveCollectionByReleaseYears(string filename, string pathROMs, int start, int end, bool xml)
+        {
+            List<Game> games = Games.GetGamesByReleaseYear(start, end);
+
+            if (xml) SaveCollectionToXml(filename, games);
+
+            return SaveCollection(games, filename, pathROMs);
+        }
+
+        static public GameListSorter? DeserializeXml(string gameListFilename)
         {
             // Read the file as one long string.
             string gameListXml = System.IO.File.ReadAllText(gameListFilename);
@@ -77,16 +95,35 @@ namespace EmulationStationGameListSorter
             // Remove <? xml version = "1.0" ?> if present on the xml. Otherwsie, invalid XML is created.
             gameListXml = Regex.Replace(gameListXml, @"<\?xml[^;]*\?>", string.Empty, RegexOptions.IgnoreCase);
             
-            // Create dummy root element in case it is an XML fragment adn therefore no root element is present. XML must have a root element.
-            gameListXml = "<root>" + gameListXml + "</root>";
-            
-            
+            // Check if root element exist and add one if not
+            // Create dummy root element in case it is an XML fragment and therefore no root element is present. XML must have a root element.
+            if (gameListXml.Contains("<root") is false) gameListXml = "<root>" + gameListXml + "</root>";
+              
             // Create the GameList
             using (XmlReader reader = XmlReader.Create(new StringReader(gameListXml)))
             {
-                XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(GameListSorter));
                 GameListSorter? result = xmlSerializer.Deserialize(reader) as GameListSorter;
                 return result;
+            }
+        }
+
+        private static void SaveCollectionToXml(string filename, List<Game> games)
+        {
+            GameListSorter sorted = new GameListSorter();
+            GameList gameList = new GameList();
+            gameList.Games = games;
+            sorted.Games = gameList;
+            SerializeToXml(sorted, Path.ChangeExtension(filename, ".xml"));
+        }
+
+        private static void SerializeToXml(GameListSorter anyobject, string xmlFilePath)
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(anyobject.GetType());
+
+            using (StreamWriter writer = new StreamWriter(xmlFilePath))
+            {
+                xmlSerializer.Serialize(writer, anyobject);
             }
         }
     }

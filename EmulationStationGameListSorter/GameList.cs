@@ -6,16 +6,19 @@ using System.Globalization;
 
 namespace EmulationStationGameListSorter
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class GameList
     {
         [XmlElement("game")]
         public List<Game> Games { get; set; } = new List<Game>();
-
+       
         public List<string> GetUniqueGenres()
         {
             return Games.Select(o => o.Genre).Distinct().ToList();
         }
-
+       
         public List<string> GetUniquePublishers()
         {
             return Games.Select(o => o.Publisher).Distinct().ToList();
@@ -24,16 +27,6 @@ namespace EmulationStationGameListSorter
         public List<string> GetUniqueDevelopers()
         {
             return Games.Select(o => o.Developer).Distinct().ToList();
-        }
-
-        public List<Game> GetGamesByReleaseYear(int start, int end)
-        {
-            return Games.FindAll(o => (o.ReleaseYear >= start && o.ReleaseYear < end));
-        }
-
-        public List<Game> GetGamesByRating(double value)
-        {
-            return Games.FindAll(o => (o.Rating >= value));
         }
 
         public List<Game> GetGamesByGenre(string value)
@@ -52,6 +45,16 @@ namespace EmulationStationGameListSorter
         {
             // Look for a substring match only
             return Games.FindAll(o => o.Developer.Contains(value, StringComparison.CurrentCultureIgnoreCase));
+        }
+
+        public List<Game> GetGamesByRating(double low, double high)
+        {
+            return Games.FindAll(o => (o.Rating >= low && o.Rating <= high));
+        }
+
+        public List<Game> GetGamesByReleaseYear(int start, int end)
+        {
+            return Games.FindAll(o => (o.ReleaseYear >= start && o.ReleaseYear < end));
         }
     }
 

@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <gameList>
+    <game>
+      <path>./spaceinv.zip</path>
+      <name>Space Invaders</name>
+      <desc>Space Invaders is a two-dimensional fixed shooter game in which the player controls a laser cannon by moving it horizontally across the bottom of the screen and firing at descending aliens. The aim is to defeat five rows of eleven aliens—some versions feature different numbers—that move horizontally back and forth across the screen as they advance towards the bottom of the screen. The player defeats an alien, and earns points, by shooting it with the laser cannon. As more aliens are defeated, the aliens' movement and the game's music both speed up. Defeating the aliens brings another wave that is more difficult, a loop which can continue indefinitely.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19781001T000000</releasedate>
+      <developer>Taito Corporation</developer>
+      <publisher>Midway Manufacturing</publisher>
+      <genre>Action, Shooter</genre>
+      <players>2</players>
+      <playcount>2</playcount>
+      <lastplayed>20230127T210517</lastplayed>
+    </game>
+    <game>
+      <path>./3super8.zip</path>
+      <name>Safari</name>
+      <desc>A big-game hunter fights against dangerous animals in the jungle.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19770505T000000</releasedate>
+      <developer>Gremlin</developer>
+      <publisher />
+      <genre>Shooter</genre>
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./500gp.zip</path>
+      <name>Gee Bee</name>
+      <desc>Namco's first independently designed video arcade game, Gee Bee combines gameplay elements of pinball and Breakout. There are two paddles, one at the bottom and one in the middle, that stay aligned when moving, so players must pay attention to both when bouncing the ball. There are blocks at the top, sides. and in two tiny compartments on the sides near the bottom. There is also a third, stationary, vertically-oriented paddle in the middle, as well as bumpers to give it a pinball feel. Scoring depends on what objects you hit.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Namco</developer>
+      <publisher>Namco</publisher>
+      <genre>Action</genre>
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./asteroid1.zip</path>
+      <name>Asteroids</name>
+      <desc>The objective of Asteroids is to score as many points as possible by destroying asteroids and flying saucers. The player controls a triangular-shaped ship that can rotate left and right, fire shots straight forward, and thrust forward. As the ship moves, momentum is not conserved — the ship eventually comes to a stop again when not thrusting. The player can also send their ship into hyperspace, causing it to disappear and reappear in a random location on the screen (with the risk of self-destructing or appearing on top of an asteroid).</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19791117T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari, Inc.</publisher>
+      <genre>Action, Shooter</genre>
+      <players>2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./asteroid2.zip</path>
+      <name>Asteroids</name>
+      <desc>The objective of Asteroids is to score as many points as possible by destroying asteroids and flying saucers. The player controls a triangular-shaped ship that can rotate left and right, fire shots straight forward, and thrust forward. As the ship moves, momentum is not conserved — the ship eventually comes to a stop again when not thrusting. The player can also send their ship into hyperspace, causing it to disappear and reappear in a random location on the screen (with the risk of self-destructing or appearing on top of an asteroid).</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19791117T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari, Inc.</publisher>
+      <genre>Action, Shooter</genre>
+      <players>2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./astrowar.zip</path>
+      <name>Astro Wars</name>
+      <desc />
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Zaccaria</developer>
+      <publisher />
+      <genre>Action</genre>
+      <players>2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./abaseb2.zip</path>
+      <name>Atari Baseball</name>
+      <desc>A black and white 2-player baseball game.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19791101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari, Inc.</publisher>
+      <genre>Sports</genre>
+      <players>2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./atarifb1.zip</path>
+      <name>Atari Football</name>
+      <desc>Atari Football is a 2-player 1978 arcade game. It was developed and published by Atari, Inc.. In this game, the sport of American football is accurately emulated, with players represented by Xs and Os. The game was one of the most popular arcade games in its day. In 1979, Atari released a more challenging four-player version programmed by Dave Theurer the creator of Missile Command and Tempest.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari, Inc.</publisher>
+      <genre>Sports</genre>
+      <players>2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./beaminv.zip</path>
+      <name>Beam Invader</name>
+      <desc>Beam Invader © 1979 Tekunon Kougyou.
+
+A "Space Invaders" clone by TK.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre>Shooter</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./beaminva.zip</path>
+      <name>Bomb Bee</name>
+      <desc>Bomb Bee is a Japanese arcade game that was released by Namco in 1979. It is the sequel to Gee Bee, which was released in the previous year. This was a two-player ball and paddle game, which also featured a pinball simulation. A total of 284 cabinets were produced under this name.
+
+The genre of the game is to be considered ball and paddle. It is the sequel game of Gee Bee. The maximum number of players is two, and the two players have to alternate. The control is a rotary analog stick. The main object of the game is to move two paddles that ricochet a ball which flies around and needs to hit the colored bricks above it. When the bricks are cleared out of the side sections, it will turn that same side's pop-bumper into 100 points instead of 10. It is bonus multiplier to get the ball to light up the word "NAMCO"</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Namco</developer>
+      <publisher>Namco</publisher>
+      <genre>Action</genre>
+      <players>2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./bowl3d.zip</path>
+      <name>3-d Bowling</name>
+      <desc>An early 1- or 2-player bowling game.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Meadows</developer>
+      <publisher>Meadows Games, Inc.</publisher>
+      <genre>Sports / Bowling</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./blockade.zip</path>
+      <name>Blockade</name>
+      <desc>This game was two player only, you must have a live human opponent to play against, or else the other players character will go straight into a wall, making for a very quick and boring game. Each player moves their character around leaving a solid line behind them. All moves are made on an invisible grid, so you can only turn at 90 degree angles. To win you must last longer than your opponent before hitting something (first person to hit something loses). The game ended after one player chalked up six wins, but this was operator adjustable down to as low as three.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer>Gremlin Interactive</developer>
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./blueshrk.zip</path>
+      <name>Blue Shark</name>
+      <desc>Insert coin(s), and underwater creatures appear randomly on the screen. By pulling the trigger on the speargun, the player fires spears at the sea creatures. Features a three dimensional color background scenery depict</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./bombbee.zip</path>
+      <name>Bomb Bee</name>
+      <desc>In this old ball and paddle game, you control a paddle that must rebound a ball into the colorized bricks and pop-bumpers.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Namco</developer>
+      <publisher>Namco</publisher>
+      <genre>Action / Breakout games</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./boothill.zip</path>
+      <name>Boot Hill</name>
+      <desc>A classic 1 or 2-player western gunfight game, featuring a monochrome display overlaid via mirror onto back-lit plastic background. Each player uses a small joystick to move their cowboy up and down the play area, while a second, much larger joystick is used to aim the pistol and shoot - this larger stick also has a trigger button. The game's single goal is simply to shoot the other player, who is situated on the opposite side of the game area. Wagons and cacti litter the middle of the play area, providing temporary cover from the opponent's gunfire (while, of course, providing the opponent with cover from the PLAYER'S shots). These obstacles slowly disintegrate as they are shot; much like the shields in Taito's "Space Invaders".
+
+Boot Hill is time-based NOT life based, with the factory default set at ninety seconds. This is, of course, operator adjustable via the dip settings. The computer opponent is quite easy to beat with a little practice, but a human opponent provides a much stronger challenge.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Dave Nutting Associates</publisher>
+      <genre>Fight</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./bowler.zip</path>
+      <name>Bowling Alley</name>
+      <desc>An old black and white bowling game up to 4 players.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Sports / Bowling</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./canyon.zip</path>
+      <name>Canyon Bomber</name>
+      <desc>Canyon Bomber is a 2-D shooter. You control either the blimp or the plane while dropping bombs on the rocks below. Your goal is to get the highest amount of points (either against the computer or another player). You are allowed so many misses before your game ends. Misses are counted as the times you do not hit any rocks. The scores for the rocks are directly proportional to the difficulty in hitting those rocks. This game boils down to precision bombing and thinking ahead as to where the next bomb will fall. Good luck in taking out all of the rocks in the canyon.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./checkmat.zip</path>
+      <name>Checkmate</name>
+      <desc>Up to four players control a block which leaves a trail behind it. The object is to force the other player(s) to run into either the boundary or your trail.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Dave Nutting Associates</publisher>
+      <genre>Action</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./circus.zip</path>
+      <name>Circus</name>
+      <desc>POP! POP! POP! Pop the balloons and score points. A wall of yellow, green and blue balloons will appear at the top of the screen. You must pop balloons by catching a clown on the teeter-totter and bouncing him up to the balloons.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Exidy, Inc.</developer>
+      <publisher>Exidy, Inc.</publisher>
+      <genre />
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./clowns.zip</path>
+      <name>Clowns</name>
+      <desc>Players bounce clowns off 'see-saw' to break rows of balloons for high score and bonus jumps.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./comotion.zip</path>
+      <name>Comotion</name>
+      <desc>This game was for two or four players only, you must have a live human opponent to play against, or else the other players character will go straight into a wall, making for a very quick and boring game. Each player moves their character around leaving a solid line behind them. All moves are made on an invisible grid, so you can only turn at 90 degree angles. To win you must last longer than your opponents before hitting something. Each player is eliminated when they crash, taking their lines with them. One good strategy is to turn around and head for the outer area of the screen (in four player mode), because everyone starts out headed for the center. Skirt around the edges until you only have one opponent left, then box them in. Pushing backwards on the stick will cause you to crash into your own line, so avoid that at all cost.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer />
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Action</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./copsnrob.zip</path>
+      <name>Cops'n Robbers</name>
+      <desc>From 1 to 4 people can play at once, with the computer adding in a player as needed to keep the number of players at either 2 or 4. Players number 1 and 2 play the part of the cops, while players 3 and 4 are the robbers.
+
+The screen is an overhead view of a city street, with the cops on one side, and the robbers on the other. Each car is in it's own lane, and an extra wide lane marks the area between the cop and robber side. Each player can move up and down in their own lane, the object is to shoot down the cars of the opposite side. A beer truck moves randomly up and down the center lane, generally getting in the way.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer />
+      <publisher>Atari</publisher>
+      <genre>Fight</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./cosmica.zip</path>
+      <name>Cosmic Alien</name>
+      <desc>An early vertical space shoot'em up game.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./cosmicg.zip</path>
+      <name>Cosmic Guerilla</name>
+      <desc>For some reason you have 2 of your ships placed in the middle of the playing field and aliens all around them. Luckily, they're protected by 5 rows of barriers and you're on the bottom, doing your job to protect them.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./cosmo.zip</path>
+      <name>Cosmo</name>
+      <desc>Cosmo is an old shoot'em up like Space Invaders.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>TDS</developer>
+      <publisher>TDS</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./crash.zip</path>
+      <name>Crash</name>
+      <desc>Crash is a two-dimensional maze racing game designed and programmed by Edward Valeau of Exidy in 1979. You "control" a car with no brakes which moves at either slow or fast speed through a maze containing dots. At the same time, one or more computer controlled cars run through the same maze in the opposite direction with the intention of ramming you. At each of four junctions in the maze, you have the option of changing lanes to avoid the oncoming cars. The objective is to pick up all the dots before the computer takes you out.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Exidy, Inc.</developer>
+      <publisher>Exidy, Inc.</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./cutieq.zip</path>
+      <name>Cutie Q</name>
+      <desc>Cutie Q is an old ball and paddle / pinball game with a ghost theme.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Namco</developer>
+      <publisher>Namco</publisher>
+      <genre>Action / Breakout games</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./depthch.zip</path>
+      <name>Depthcharge</name>
+      <desc>Depthcharge is a 2-Dimensional shooter. You control your destroyer on the surface of the water while submarines patrol underneath. Your job is to drop depth charges to eliminate these submarines. The submarines aren't defenseless as they launch mines straight up toward your ship.
+
+Depthcharge was one of the early video games. Action was simple. This game also had the ability to retain the highest score (without the initials of course). Although the game is simple in concept, just trying to get enough points was enough to keep you working at it. Good luck on your submarine hunting mission.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Gremlin Interactive</developer>
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Shooter</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./desertgu.zip</path>
+      <name>Desert Gun</name>
+      <desc>A first-person shoot'em up.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Dave Nutting Associates</publisher>
+      <genre>Lightgun Shooter</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./dodgem.zip</path>
+      <name>Dodgem</name>
+      <desc>Dodgem is a 2-D maze racing game. You control your boat through the maze to pick up the dots while at the same time avoiding the boat, or boats, that are constantly trying to ram you. Successfully get through one maze and many more await you. This is good practice for sailing through Hong Kong Harbor.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Zaccaria</developer>
+      <publisher>Zaccaria</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./dogpatch.zip</path>
+      <name>Dog Patch</name>
+      <desc>An old two players shooting game.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Midway</publisher>
+      <genre>Fight</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./dominos.zip</path>
+      <name>Dominos</name>
+      <desc>An old strategy game where players place dominoes in an attempt to cause their competitor to run into their trail. Play begins slowly, but speeds up as time progresses. Players change direction based upon their button presses.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./dplay.zip</path>
+      <name>Double Play</name>
+      <desc>An old baseball game.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Sports / Baseball</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./dragrace.zip</path>
+      <name>Drag Race</name>
+      <desc>Race against a competitor or the computer. Wait until the start tree shows green, hit the accelerator, and get to fourth gear as soon as you can to get the checkered flag. Do not shift too fast, though, or you will blow the engine.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Atari</publisher>
+      <genre>Race, Driving / Race</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./einning.zip</path>
+      <name>Extra Inning / Ball Park II</name>
+      <desc>Extra Inning is a baseball game for one or two players. The game is almost identical to Double Play with some adjustments: The pitching player's joystick is 8-way instead of a rotary joystick. An extra inning (e.g. bonus round) is awarded when all bonus letters that spell MIDWAY are hit with the ball.</desc>
+      <image />
+      <video />
+      <rating>0</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Sports / Baseball</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./firetrk.zip</path>
+      <name>Fire Truck / Smokey Joe</name>
+      <desc>Fire Truck, aka Smokey Joe, is a simple two-dimensional driving game. Your perspective is from overhead as you navigate through the city streets. The object is to score points by getting as much distance as possible in the least amount of time. Those who are good enough can get bonus time for a specific amount of points. Beware, though, it will not be as easy as it seems.
+
+Fire Truck was one of the first games to feature a cooperative feature. Two players could play where one drove the fire engine while sitting up front while the other player stood in back and controlled the hook and ladder.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre>Race, Driving</genre>
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./frogs.zip</path>
+      <name>Frogs</name>
+      <desc>You're a frog on a lily pad and there's flies and insects flying around you. Jump and stick out your tongue to catch these critters. A dragonfly comes out towards the end of your game, if you catch the Dragonfly you get a free game.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Gremlin Interactive</developer>
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Platform / Run Jump</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./gmissile.zip</path>
+      <name>Guided Missile</name>
+      <desc>Launch missiles at targets moving horizontally across the screen. You have 90 seconds to hit as many targets as you can.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Midway</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./gunfight.zip</path>
+      <name>Gun Fight</name>
+      <desc>Each player (2 people play at a time--there is no computer opponent) controls a gunfighter. Your left hand has a 4-way joystick which moves your gunfighter anywhere on your side of the screen. Your right hand has a gun grip which tilts up and down to aim your gunfighter's pistol and which has a trigger to fire. Your only goal is to shoot the other player, who is right across the screen from you; he will then fall down and say 'Got Me'. It isn't usually a straight shot, as there will always be cactuses, a moving stagecoach, or trees somewhere between the 2 players. (Another obstacle will be added for each hit scored.) Just shoot the other player for points. The game is time based, and not life based. The factory setting is for a 90-second game, but this is operator-adjustable down to as low as 60 seconds.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19750101T000000</releasedate>
+      <developer />
+      <publisher>Dave Nutting Associates</publisher>
+      <genre>Fight</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./gypsyjug.zip</path>
+      <name>Gypsy Juggler</name>
+      <desc>In this game, the player juggles eggs to score points.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Meadows</developer>
+      <publisher>Meadows Games, Inc.</publisher>
+      <genre>Action</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./headon.zip</path>
+      <name>Head On</name>
+      <desc>Head On is a 2-Dimensional maze racing game. You control your car through the maze to pick up the dots while at the same time avoiding the car, or cars, that are constantly trying to ram you. Successfully get through one maze and many more await you. This is good practice for freeway driving in the big city.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Gremlin Interactive</developer>
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Action</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./headon2.zip</path>
+      <name>Head On 2</name>
+      <desc>Head On 2 is a 2-D maze racing game. You control your car through the maze to pick up the dots while at the same time avoiding the car, or cars, that are constantly trying to ram you. Successfully get through one maze and many more await you. This is good practice for freeway driving in the big city.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>SEGA</developer>
+      <publisher>SEGA</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./hustle.zip</path>
+      <name>Hustle</name>
+      <desc>HUSTLE is a 1- or 2-player video game which challenges players' reaction time as they attempt to build up a high score. The object of the game is to maneuver a moving arrow into targets which appear randomly on the screen. Each arrow is accompanied by a tail, which can be used to block the opponent from scoring targets.
+
+TARGETS: The targets appear randomly on the playfield. The position of a target, the value of a target, the time a target stays on the screen, and the time before a target appears are all unpredictable: There are never more than two targets on the screen at any time.
+
+To add to the unpredictability, some targets appear with a value of ???. These are mystery targets, and can have a value from -900 points to +900 points. Players go after the mystery targets at their own risk since the only way to determine whether or not a mystery target is positive or negative is to hit the target. Whenever a target is scored, the game pauses while the appropriate player's score is tallied. Two distinctive sounds accompany the scoring, depending on whether the target score is positive or negative. All non-mystery targets (which are all positive), and all mystery targets (which have positive values) are scored with an attention-getting warble sound. All mystery targets which prove to be negative are scored with a distinctive penalty sound.
+
+</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Gremlin Interactive</developer>
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./invinco.zip</path>
+      <name>Invinco</name>
+      <desc>Invinco is another game in spired by "Space Invaders", this one includes some innovation on the aliens: One row blinks in and out of view, another row's aliens roll so as to make themselves harder or easier to hit, and a 3rd row of aliens each take (at least) 3 hits to kill. A 4th row has aliens that turn into bombs, blowing up everything around them to make your job somewhat easier.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>SEGA</developer>
+      <publisher>SEGA</publisher>
+      <genre>Shooter</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./invho2.zip</path>
+      <name>Invinco / Head On 2</name>
+      <desc>Head On 2 is a 2-D maze racing game. You control your car through the maze to pick up the dots while at the same time avoiding the car, or cars, that are constantly trying to ram you. Successfully get through one maze and many more await you. This is good practice for freeway driving in the big city.
+
+Invinco is a game inspired by "Space Invaders" with some innovation on the aliens: One row blinks in and out of view, another row's aliens roll so as to make themselves harder or easier to hit, and a 3rd row of aliens each take (at least) 3 hits to kill. A 4th row has aliens that turn into bombs, blowing up everything around them to make your job somewhat easier.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre>Compilation</genre>
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./ipminvad.zip</path>
+      <name>Ipm Invader</name>
+      <desc>Released in January 1979. Known as the poor mans version of "Space Invaders".
+
+It is like "Space Invaders", with identical graphics. It uses a color monitor instead of a black and white monitor with a color overlay.
+
+It has the addition of the famous 'coffee break'. What's the 'coffee break'? The 'coffee break' is a unique feature in IPM Invaders whereas after every 3rd wave or pattern of invaders, the 'coffee break' appears.
+
+Irem was founded in 1974 as 'IPM Corp.' in Hakusan, Japan. Like most of their contemporaries, the company's initial purpose was to produce and rent out electronic leisure machinery to various sections of the entertainment industry. With the advent of arcade videogaming and the hugely popular "Space Invaders" (1978), Irem opted to move into the development and manufacturing of their own titles. They rapidly released their own 'invader clone', the aptly named IPM Invader.
+
+IPM Invader was a crude and shameless copycat of Taito's milestone, but yet the sheer popularity of arcade rooms at the time saw the game do well enough to convince the company that games were a viable business opportunity.
+In 1979 they changed their corporate name to Irem Corp., an acronym for 'International Rental Electronics Machines'. This would stand until the mid-80s, when it would then be changed to 'Innovations in Recreational Electronic Media'.
+For their first few years, Irem's output was average at best. If anything it could almost be considered poor: random invader clones and poorly produced action games disappeared amongst the numerous other titles of the day.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>IPM</developer>
+      <publisher>IPM</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./kamikaze.zip</path>
+      <name>Kamikaze</name>
+      <desc>Kamikaze is a simple 2-D shooter. You control your laser base against an endless stream of alien invaders. The invaders don't come in set waves. Instead, they come in a constant stream. Once you have gotten through one barrage of aliens, more are just behind to continue the action. Your job is to keep them from overwhelming you with their superiority in numbers. Kill or be killed, that is the objective.
+
+Kamikaze is one of the follow-up games that rode on the wave of the "Space Invaders" craze. The game itself is simple in concept but the action gets fast paced real quickly. Especially since several things can be going on at the same time during the game.</desc>
+      <image />
+      <video />
+      <rating>0.6</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Leijac Corporation</developer>
+      <publisher>Leijac Corporation</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./lazercmd.zip</path>
+      <name>Lazer Command</name>
+      <desc>You have an overhead view of a maze with two sides, the sides mirror each other. The left side of the screen is yellow, and the right side is green. On each side are fifteen tanks. The object is to blow up all of the opposing players tanks (or as many as you can before the timer runs out). You can only control one tank at a time, you can move them around and blast your opponents tanks (getting the active one is usually a good idea). When you get blasted, your tank vanishes, and you must move a little blip over to another tank to resume play (this blip is invisible unless it is against a wall). You can also leave your tank and head for another one by pressing the second button. This is just a great strategic title, it holds up even today. It is really worth playing if you like that sort of thing. Just be aware that this is a two player only title, so you will need a friend to play against.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer />
+      <publisher>Meadows Games, Inc.</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./lrescue.zip</path>
+      <name>Lunar Rescue</name>
+      <desc>Lunar Rescue is a combination 2-D simple flight simulator and 2-Dimensional shooter. You start the game by floating within your mother ship. You then either must release your lander or after a pre-determined period of time, the mother ship will forcibly eject it. You first have to navigate through six rows of asteroids to make it to one of the landing platforms. You have six platforms initially but each landing will eliminate one since there is one platform per astronaut you have to rescue. On your return trip up, the screen changes and now you have saucers trying to destroy you with laser fire. Again, you will either have three or six rows of saucers depending if there are meteors in the area. You then must successfully land in the docking bay of the mother ship to get credit for a successful rescue of one astronaut.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Taito</developer>
+      <publisher>Taito</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./m4.zip</path>
+      <name>M-4</name>
+      <desc>M-4 (c) 1977 Midway.  - TECHNICAL -  Game No. 626  Main CPU : 8080 (@ 1.9968 Mhz)  Screen orientation : Horizontal Video resolution : 256 x 224 pixels Screen refresh : 60.00 Hz Palette colors : 2  Players : 2 Control : 2-way joystick Buttons : 2  - TRIVIA</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Fight</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./m79amb.zip</path>
+      <name>M-79 Ambush</name>
+      <desc>A really great action game! This is a shooting game where tanks, jeeps and motorcycles battle it out in front of the two cannons under U.N. observation. Bang! When the enemy is hit, an explosion sequence occurs complete with the sounds of gunfire, whistles and whines - the action goes on and on!</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>RamTek</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./medlanes.zip</path>
+      <name>Meadows Lanes</name>
+      <desc>An early Black and white bowling game for to 2 players.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Meadows Games, Inc.</developer>
+      <publisher>Meadows Games, Inc.</publisher>
+      <genre>Sports / Bowling</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./montecar.zip</path>
+      <name>Monte Carlo</name>
+      <desc>Atari's Monte Carlo is a 1-player video game that simulates driving in a grand prix race. Various video-display phrase indicate score, time elapsed ('FUEL'), speed and which track was selected at the beginning of the game (eight different ones ranging from easy to hard). Players drive the grand prix car through the streets, while spectators observe from the side. Bales of hay, cola stands, trees, and bushes also line the roadway.
+
+Four computer-controlled cars provide challenge: they pass the player's car at high speed and may cause it to skid or even crash. However, the computer cars are not unfailable and may also skid or crash occasionally. Realistic engine revving, screeching tires and crash sounds accompany game play.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre>Various</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./nitedrvr.zip</path>
+      <name>Night Driver</name>
+      <desc>Night Driver is a simple two-dimensional driving game. Your perspective is from behind the wheel of the car as you drive down the highway.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Race 1st Pers. view</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./orbit.zip</path>
+      <name>Orbit</name>
+      <desc>The game level can be selected at the beginning of the game or after game select button has been pressed. Press the buttons from 1 to 10.
+
+Bounce Back - Sets boundaries around perimeter of the TV monitor screen. Example: Starship immediately reverses direction after reaching boundary. Normally perimeter boundaries do not exist.
+Negative Gravity - Sun radiates gravity outward to perimeter boundaries of the TV monitor screen. Normal sun state radiates positive gravity (positive gravity is inward toward the sun).
+Zero Gravity - Sun does not radiate gravity.
+Black Hole - Invisible sun with any selected gravity.
+Space Stations - Two space stations orbit around sun. Each player is designated a specific space station on which he may land for repairs, fuel and shells. When player starship touches opponent's station it is immediate annihilation.
+Unlimited Supplies - Unlimited fuel and ordnance (fire power).
+Stars - Remove stars from playfield.
+Strong Gravity - Unusually strong positive gravity.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./ozmawars.zip</path>
+      <name>Ozma Wars</name>
+      <desc>A great and pioneer fixed vertical space shoot'em up game. 
+
+The Ozma wars has begun, and the player controls a spacecraft which must fend off UFOs, spaceships meteors, and comets in a varied of space levels. Instead of lives, the player is given an energy reserve that is constantly diminishing; getting hit by the enemy causes gameplay to stop momentarily and a large amount of energy is depleted. Every so often, a mothership will appear and dock with the player's spacecraft, allowing the energy to be refilled. There are 3-4 recognizable stages as the game progresses and new enemies begin to appear. After these, the mothership will appear, and the cycle starts over; this continues indefinitely until the energy reaches zero.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>SNK</developer>
+      <publisher>SNK</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./phantom2.zip</path>
+      <name>Phantom II</name>
+      <desc>Air combat games are always popular... and Midway's Phantom II beats them all with new ideas, fast action and modern techniques. Players 'fly' the Phantom in realistic flight patterns to battle and destroy 'bandit' planes. A press of the trigger fires missiles with authentic sound for 'on target' strikes. Enemies seek cloud cover and the Phantom turns on radar to reveal their position. Bonus points are scored for radar screen hits. If the Phantom flyer is hit, he is ejected and parachutes to safety for another chance to fly again and resume the chase.
+
+Extended play and game time are adjustable.
+
+Initials and scores of LEGEND, ACE and EXPERT are posted to encourage competition in this exciting single player video game.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Shoot'em Up</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./phoenix.zip</path>
+      <name>Phoenix</name>
+      <desc>Phoenix is a classic vertical shoot-em-up in the mould of Taito's "Space Invaders" and Namco's "Galaxian", but takes the concept further with the introduction of progressive stages of play (instead of simply repeating a single playfield over and over with an increasing difficulty level).
+
+According to Centuri's Joel Hochberg, the game was licensed from "a smaller Japanese developer." Amstar Electronics licensed the game to Centuri for manufacture in the United States. Taito released the game in Japan.</desc>
+      <image />
+      <video />
+      <rating>0.9</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Amstar</developer>
+      <publisher>Centuri</publisher>
+      <genre>Shoot'em Up</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./poolshrk.zip</path>
+      <name>Poolshark</name>
+      <desc>Pocket-Pool video game.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Atari</publisher>
+      <genre>Sports / Swimming</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./ripcord.zip</path>
+      <name>Rip Cord</name>
+      <desc>The goal of the game is to jump out of the plane and land safely on one of the many targets down below. The challenge is to avoid the numerous enemy helicopters that occupy the sky in between your plane and the ground.
+
+You control the timing of your jump with the Jump button, at which point your parachutist begins hurtling toward the ground out of control. Pressing the D-Ring button shortly afterwards releases the chute and slows your descent. More importantly, it allows you at this point to control your left/right position via the paddle control to help you avoid the enemies.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Exidy, Inc.</developer>
+      <publisher>Exidy, Inc.</publisher>
+      <genre>Sports / Skydiving</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./robotbwl.zip</path>
+      <name>Robot Bowl</name>
+      <desc>You have a top down view of a bowling alley with score cards shown on each side. The only thing in the game that uses an actual animation is the bowler himself, the robot has a several frame animation when he walks. Everything is (of course) shown in glorious monochrome black and white. The game begins with your robot bowler running up to the alley (his feet move faster than he does, which makes it look like he is running on a conveyor belt or something). You then have three seconds to roll the ball, before it will roll of its own accord. The game is controlled with five buttons, they are left, right, shoot, hook left, and hook right. When Exidy was making this game, they had to make a decision about how the hooking worked, and it seems that they decided that "Robots are telepaths, and can effect the balls movement after it is thrown!". You see you can't even hook the ball until after it is thrown. This makes it very easy to pick up the spare. The game makes up for that little trick by making 'splits' very common (the 7-10 split and the 4-7-10 split come up all the time). These are pretty annoying, but you can usually learn how to clear them out (except the 7-10 split, I still haven't figured out how to clear that one).</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Exidy, Inc.</publisher>
+      <genre>Sports / Bowling</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./rollingc.zip</path>
+      <name>Rolling Crash / Moon Base</name>
+      <desc>Rolling Crash is a 2-D maze racing game with changes to add to the variety of play. You control your car through the maze to pick up the dots while at the same time avoiding the car, or cars, that are constantly trying to ram you. Successfully get through one maze and many more await you. This is good practice for freeway driving in the big city.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Nichibutsu</developer>
+      <publisher>Nichibutsu</publisher>
+      <genre>Action</genre>
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./rotaryf.zip</path>
+      <name>Rotary Fighter</name>
+      <desc>A copy of "Space Invaders".</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Kasco</developer>
+      <publisher>Kasco</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./safarir.zip</path>
+      <name>Safari Rally</name>
+      <desc>At the flick of a switch, a white car approaches. You must avoid it and select the safest course, in a maze. When the first formation of dots is extinguished, 2 opposite cars dash at you from the upper screen. You must avoid them and run over the Lion and Snake in order to score bonus mystery points... Never be off guard, skid zones are dangerous! When 4 patterns are cleared, 3 cars rush at you!! Only skilled players make it!!</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>SNK</developer>
+      <publisher>SNK</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./seawolf2.zip</path>
+      <name>Sea Wolf II</name>
+      <desc>The game screen is a side view of a underwater scene (with the surface towards the top). You control a crosshair at the surface level. The object is to shoot as many ships as possible, before the time runs out. Your torpedoes are launched from the bottom of the screen, and must move upwards to hit the enemy ships (while avoiding the mines that float at different levels of the water). There are several different types of enemy ships, from slow moving destroyers, to fast moving PT boats. An 'explosion' light will flash inside your periscope each time you score a hit. Your submarine can shoot five shots before it has to reload (an automatic action that takes about a second). Your game will be extended if you reach a certain score before time runs out (the score is operator adjustable).</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer />
+      <publisher>Dave Nutting Associates</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./sheriff.zip</path>
+      <name>Sheriff</name>
+      <desc>You control a sheriff who has been surrounded by bandits. You can move around in the middle of the screen, and pick off the bandits that have you circled in. The longer you play the quicker they move. Luckily you can move one direction, while firing another.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Nintendo</developer>
+      <publisher>Nintendo</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./shuffle.zip</path>
+      <name>Shuffleboard</name>
+      <desc />
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Sports / Shuffleboard</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./shuttlei.zip</path>
+      <name>Shuttle Invader</name>
+      <desc>Space Invaders's clone.
+When you insert a coin you get a 'Service Score' changing random number. When Play is pressed, the number stabilizes, then disappears. This number is the score you need to gain a bonus ship.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Omori Electric Co.</developer>
+      <publisher>Omori Electric Co., Ltd.</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./sidetrac.zip</path>
+      <name>Side Trak</name>
+      <desc>Side Trak is a black &amp; white man-versus-machine game where the goal is to pick up all of the waiting passengers with your train while avoiding the computer-driver 'killer engine' which aims to take you out in a head-on collision. You can control your train via the 'fast' button which allows you to temporarily increase your speed on the tracks. You can also use the joystick to switch between several tracks at various junction points.
+
+Each time you make a complete circuit around the track and pass the start marker on the outside track, another car is added to your train.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer />
+      <publisher />
+      <genre />
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./skylove.zip</path>
+      <name>Sky Love</name>
+      <desc>A one or two player shooter game published and developed by Omori Electric Co. in 1979</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Omori Electric Co.</developer>
+      <publisher>Omori Electric Co., Ltd.</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./skyraid.zip</path>
+      <name>Sky Raider</name>
+      <desc>Sky Raider is a two-dimensional, vertical scrolling game. You get to be the pilot of a bomber whose task is to destroy as many targets as possible in the allotted period of time. Fortunately for the player, it is a target-rich environment and the best part is that there are no defenses to fly through. That means you get to bomb targets at will without fear of any enemy fire. Who could ask for a simpler type of game.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shooter / Missile Command Like</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./solarwar.zip</path>
+      <name>Solar War</name>
+      <desc>Solar War is a pinball simulation from one to four players. You begin the game with three balls and need to score as many points as possible by hitting the various bumpers, spinners, and rollovers on the pinball table. The layout of the table is based on the actual Superman pinball table, also by Atari.</desc>
+      <image />
+      <video />
+      <rating>0.2</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Pinball</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./schaser.zip</path>
+      <name>Space Chaser</name>
+      <desc>Space Chaser is a 2-Dimensional maze racing game. You control your rocket through the maze to pick up the dots while at the same time avoiding the rocket, or rockets, that are constantly trying to ram you. Successfully get through one maze and many more await you. This is good practice for freeway driving in the big city.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Taito</developer>
+      <publisher>Taito</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./spacefev.zip</path>
+      <name>Space Fever</name>
+      <desc>The Earth is under attack from alien invaders. Shoot them out of the sky before they land. Space Fever is Nintendo's take on the "Space Invaders" franchise. The game is almost identical in terms of how it plays. The alien craft are arranged in rows and they slowly move left and right across the screen. When the row reaches the edge, the ships drop down a row and move in the opposite direction. As you shoot more enemies the speed will increase, as will the number of enemy bullets. You have four blocks above you that absorb the enemy shots until they are worn through, and being hit by an enemy shot will cost you a life. Sometimes a UFO will fly along the top of the screen and can be hit for Bonus points.
+
+There are three different game modes for 1- or 2-player games:
+Game A - There are two 'blocks' of aliens that move in opposite directions to each other.
+Game B - The aliens move as one 'block', but they only appear one row at a time.
+Game C - The same as "Space Invaders" - all the aliens move as one 'block' in the same direction.</desc>
+      <image />
+      <video />
+      <rating>0.6</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Nintendo</developer>
+      <publisher>Nintendo</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./invadpt2.zip</path>
+      <name>Space Invaders Part 2</name>
+      <desc>Space Invaders Part II is the sequel to the legendary "Space Invaders"; Part II's game-play is virtually identical to the original game, with the player once again moving a laser base back and forth along the bottom of the screen, shooting endless waves of aliens marching downwards towards the player. Once again flying saucers cab be shot for extra points.</desc>
+      <image />
+      <video />
+      <rating>0.9</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Taito</developer>
+      <publisher>Taito</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>1</playcount>
+      <lastplayed>20230127T210742</lastplayed>
+    </game>
+    <game>
+      <path>./spcking2.zip</path>
+      <name>Space King 2</name>
+      <desc>Aside from being more colorful, it seems to be identical to the original.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Konami</developer>
+      <publisher>Konami</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./spacelnc.zip</path>
+      <name>Space Launcher</name>
+      <desc>Space Launcher is a game by Nintendo that was surprisingly original - the game is similar to Frogger, though is not a clone since it predates it by at least two years. 
+
+The game takes place in space, and your goal is to maneuver around space objects and dodge oncoming enemy fire from the aliens that are stationed above. There are treasures at the top: and your goal is to fly up, grab the treasure, and come soaring back down. You must repeat this until all of the treasures have been scavenged.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Nintendo</developer>
+      <publisher>Nintendo</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./spacwalk.zip</path>
+      <name>Space Walk</name>
+      <desc>A sort of "Clowns" game, for one player vs. computer or two players. You both have a spring board which works the same way as Clowns. On the left hand side of the screen, Player 1's board is higher than Player 2's. On the righ</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./sprint1.zip</path>
+      <name>Sprint 1</name>
+      <desc>In this game you control a race car on a semi-circular track. You are looking down on the action from above. Your only goal is to drive around the track as many times as possible, and as fast as you can. There will be four cars on the track at all times (the computer lets you know that 'Grey cars drive automatically').You control the white car, while the computer controls a black car and two grey cars. The game will rate you at the end, you can get rated Granny, Rookie, or Pro, and getting a score over 250 points will extend the game an extra 30 seconds. The game has several different tracks available, and they change randomly throughout the game (they literally change while you are still driving). This is different than the original "Sprint 2", which allowed you to select your track manually. The graphics are simple black and white with two shades of gray thrown in for good measure. They are simple, but they get the job done.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Race, Driving / Race</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./sprint4.zip</path>
+      <name>Sprint 4</name>
+      <desc>In this game you control a race car on a semi-circular track. You are looking down on the action from above. Your only goal is to drive around the track as many times as possible, and as fast as you can. There will be four cars on the track at all times. With the computer controlling cars for missing players. The game will rate you at the end, you can get rated Granny, Rookie, or Pro, and getting a score over 250 points will extend the game an extra 30 seconds. The game has several different tracks available, and you can select them with a button at the start of a match. The graphics are simple black and white with two shades of gray thrown in for good measure. They are simple, but they get the job done.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Atari</publisher>
+      <genre>Race, Driving / Race</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./sprint8.zip</path>
+      <name>Sprint 8</name>
+      <desc>
+
+In this game you control a race car on a semi-complicated track. You are looking down on the action from above. Your only goal is to drive around the track as many times as possible, and as fast as you can. There will be eight cars on the track at all times. With the computer controlling cars for missing players. The sheer number of cars can make this game a little confusing. All the cars have minor variations to set them apart from the others, but are similar enough that you simply cannot look away from the track for a second. If you are used to the other Sprint games, you will find that this one is a bit different, the graphics are slightly higher in resolution, and the tracks are much more complex, and have a different look to them, not to mention the fact that this version adds a brake pedal that was absent in the other Sprint titles. The game has several different tracks available, and you can select them with a button at the start of a match. The graphics are simple black and white with two shades of gray thrown in for good measure. They are simple, but they get the job done. The game will rate you at the end, you can get rated Granny, Rookie, or Pro, and getting a score over 250 points will extend the game an extra 30 seconds.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Race, Driving / Race</genre>
+      <players>1-8</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./starcrus.zip</path>
+      <name>Star Cruiser</name>
+      <desc>A 2 players space shoot'em up game. Guide your Spaceship through deep space destroys the opponent to win in this Star Cruiser!
+Star Cruiser is a Spacewar variant. Two players fly space ships shown on the screen and must try to shoot each other to win. Unlike most variants the controls consist of steering wheels and gas pedals. There is no central sun. When players or projectiles exit the screen on one side they appear again on the other.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>RamTek</developer>
+      <publisher>RamTek</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./starfire.zip</path>
+      <name>Star Fire</name>
+      <desc>Exidy STARFIRE is a single player game which simulates combat between space-going fighters. The player can control the speed and direction of his fighter and attack enemy fighters with his lasers; the enemy fighters shoot fireballs at the player. The object of play is to accumulate points by destroying enemy fighters. A player can buy extra playtime during play and continue the game he is playing, as long as he has any time left; he earns bonus playtime each time he exceeds a bonus score. The game keeps track of 20 high scores - one score for each number of coins accumulated. The initials of high scoring players are displayed during the game's attract mode.
+
+</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Exidy, Inc.</developer>
+      <publisher>Exidy, Inc.</publisher>
+      <genre>Shooter / Plane, 1st person</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./starfir2.zip</path>
+      <name>Star Fire 2</name>
+      <desc>Exidy STARFIRE is a single player game which simulates combat between space-going fighters. The player can control the speed and direction of his fighter and attack enemy fighters with his lasers; the enemy fighters shoot fireballs at the player. The object of play is to accumulate points by destroying enemy fighters. A player can buy extra playtime during play and continue the game he is playing, as long as he has any time left; he earns bonus playtime each time he exceeds a bonus score. The game keeps track of 20 high scores - one score for each number of coins accumulated. The initials of high scoring players are displayed during the game's attract mode.
+
+</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Exidy, Inc.</developer>
+      <publisher>Exidy, Inc.</publisher>
+      <genre>Shooter / Plane, 1st person</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./starhawk.zip</path>
+      <name>Star Hawk</name>
+      <desc>Star Hawk is a 3-D wireframe shoot-em-up which places a strong emphasis on player timing. Players move a cross hair around the screen and must blast the approaching enemy spaceships.
+
+The skill level settings affect how quickly the cross hairs move in response to the joystick input. As the game progresses, the speed of the enemy craft increases. If one particular enemy ship is not destroyed quickly enough, it will zap 800 points off the player's score, with the enemy itself also worth 800 points.
+
+Star Hawk can effectively be played indefinitely, providing the player keeps shooting enough enemy ships.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Bandai Namco</developer>
+      <publisher>Bandai Namco</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./starshp1.zip</path>
+      <name>Starship 1</name>
+      <desc>Starship 1 is a first person space shooting game. The player moves the ship with a control wheel. Different enemies show up at the screen and scale up as they come closer to the player they must be shot down. Stars scroll in the background to give a sense of speed.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shooter / Plane, 1st person</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./subs.zip</path>
+      <name>Subs</name>
+      <desc>The 2nd arcade release in Konami's beatmaniaIIDX franchise. Wasn't much of an upgrade but it added some popular tracks from the 5-key franchise as well as some new songs that still remain amongst the most notable in the series.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./sbrkout.zip</path>
+      <name>Super Breakout</name>
+      <desc>Super Breakout allows the player(s) to select any one of three different action-packed Super Breakout games by turning the game select knob on the control panel to the desired game. The three available Super Breakout modes are the following: 
+
+Double Breakout: before serving the ball, the Double Breakout playfield contains 52 orange bricks (4x13) at the top of the screen and 52 green bricks (4x13) immediately below the orange brick wall. 
+Two paddles are displayed at the bottom end of the screen. When the Serve pushbutton is pressed, two balls are served. If the first ball served is missed, it counts as a missed serve and goes against the player's allotted serves per game. Otherwise the second ball is served. If the second ball served is missed after striking the first served ball, the player may continue with the first ball. 
+
+Cavity Breakout: before serving the ball, the Cavity Breakout playfield contains 44 orange bricks and 52 (4x13) green bricks located immediately below the orange brick wall. At approximately 3 columns in and 2 rows down into the orange brick wall, from both the left and the right side of the wall, two cavities appear. These two cavities occupy the space of 4 bricks (a 2x2 brick area).
+One paddle is provided in this game, and only one ball is served, unlike in Double Breakout. When enough bricks are removed to release a captive ball from its cavity, the score doubles for each brick removed by any of the two balls in the playfield (as long as the served ball and the freed ball both remain active in the playfield). If the third ball is freed and all three balls are played in the playfield, the score triples. If any one of the balls is missed and lost, the score returns to double points. If the second ball is missed and only one ball remains in the playfield, points are then scored as normal. 
+
+Progressive Breakout: before serving the ball, the Progressive Breakout playfield contains 4x13 brick walls (one blue and the other green). The blue brick wall, which consists of 52 bricks, is at the top. Then occurs a space equivalent to this wall. In the middle of the screen is a green brick wall consisting of 52 bricks. 
+The brick walls move or 'scroll' toward the paddle at a rate determined by the number of hits on the ball. As the bricks are knocked out and the walls progressively creep up on the player's paddle, new bricks enter the playfield at a progressively faster rate. Four rows of bricks are always separated by four rows of blanks. 
+As the brick walls scroll down, their colors change, indicating a new point score for that brick at that instant of time.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Action / Breakout games</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./superbug.zip</path>
+      <name>Super Bug</name>
+      <desc>A great and pioneer top-view racing game. 
+
+Super Bug! Super Thrills!
+
+The player drive a bright yellow "modified bug" speeds through tree-lined city streets in a fast moving rally race. The constantly moving streets provide new excitement and driving challenge every time the game is played, as the driver races the clock to cover as much distance as possible for highest score.
+
+Directional arrows appear on the road to warn drivers as they approach turns. Quick reflexes are a must to avoid crashing into curbs and parked cars. And to avoid sliding into oil slicks and sand traps.
+
+Players can select "Novice" or "Expert" tracks, shift into first, step on the accelerator and take off. The roar of acceleration, crash and skid sounds add to the exciment. Score, Fuel (time remaining) and driver Ratings are displayed on the screen, as well as "Crunch" whenever the player crashes.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Atari</publisher>
+      <genre>Race, Driving</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./tailg.zip</path>
+      <name>Tailgunner</name>
+      <desc>Tail Gunner is a monochrome vector arcade game created by Vectorbeam in 1979. The premise of the game is that the player is the tailgunner of a large space ship. Enemy spacecraft attack the vessel in groups of three, and the player must aim a set of crosshairs and shoot the enemies before they slip past the player's cannons. Because of the game's depicted viewpoint, instead of appearing to fly into the starfield, the stars move toward the center of the screen</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Cinematronics</developer>
+      <publisher>Cinematronics</publisher>
+      <genre>Shooter / Plane, 1st person</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./tank8.zip</path>
+      <name>Tank 8</name>
+      <desc>Tank 8 is an eight player version of Tank. Each player controls a different colored tank in a top down environment and must try to shoot down enemies. The environment is filled with barriers and mines.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer>Kee Games</developer>
+      <publisher>Atari</publisher>
+      <genre>Action</genre>
+      <players>1-8</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./tinv2650.zip</path>
+      <name>The Invaders</name>
+      <desc />
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Zaccaria</developer>
+      <publisher>Zaccaria</publisher>
+      <genre>Shooter</genre>
+      <players />
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./tornbase.zip</path>
+      <name>Tornado Baseball</name>
+      <desc>The game is a very simple game of baseball, implemented with stick figures. The game is very simple in terms of rules, and anybody can pick up on how to play fairly quickly. This is a two player only title, with both people playing for a single quarter. The pitching player selects his pitch with one joystick, while moving his outfielders with a second one. The batting player only has a single button (that is a 'swing' button). Both players use the same set of controls, so they must switch spots in front of the machine midway through each inning. You get a four inning game for one quarter, although that number can be adjusted by the game operator.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer>Bally Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Sports / Baseball</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./tourtabl.zip</path>
+      <name>Tournament Table</name>
+      <desc>This multi-game contains:
+"Breakout", 
+Soccer I / II, 
+Foozpong, 
+Hockey I / II / III,
+"Quadra Pong", 
+Handball, 
+Basketball I / II.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Compilation</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./triplhnt.zip</path>
+      <name>Triple Hunt</name>
+      <desc>Three shooting games in one unit; Hit the Bear, Witch Hunt and Racoon Hunt. The operator can select any one of the three games for his location and change it periodically merely by putting new graphic panels in and adjusting a switch on the P.C. board.
+
+Hit The Bear is a modern video version of the classic bear shooting game. Realistically animated bears walk through a 3-D green forest. When hit, the bear roars, stands up and turns to walk in the opposite direction.
+
+The Witch Hunt game changes the setting to a mysterious haunted house where players shoot at ghosts appearing in the windows and witches and bats flying across the screen.
+
+In Racoon Hunt, players shoot at racoons climbing trees in an Autumn forest. The objective is to keep the racoons from reaching the top of the trees as they climb faster and faster as the score goes up.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer />
+      <publisher>Atari</publisher>
+      <genre>Lightgun Shooter</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./tunhunt.zip</path>
+      <name>Tunnel Hunt</name>
+      <desc>Tunnel Hunt (c) 1979 Atari.  - TECHNICAL -  Game ID : 136000  Main CPU : M6502 (@ 2 Mhz) Sound Chips : (2x) POKEY (@ 1.2096 Mhz)  Screen orientation : Vertical Video resolution : 240 x 256 pixels Screen refresh : 60.00 Hz Palette colors : 16  Players : 1 </desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shooter / Plane, 1st person</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./ultratnk.zip</path>
+      <name>Ultra Tank</name>
+      <desc>Two tanks face off in a maze of blocks. Besides dodging the bullets shot by the opponent, a player must also avoid running into mines. After the game timer expires, the player with the highest score wins.
+
+The game is similar to the original "Tank" except the battlefields can be open or have mines and barriers and the tanks can be visible or invisible depending on how the options are selected.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Fight</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./videopin.zip</path>
+      <name>Video Pinball</name>
+      <desc>A great classic pinball game, featuring designs of the 70's Disco era!</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Pinball</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./warrior.zip</path>
+      <name>Warrior</name>
+      <desc>This game consists of a top, or bird's eye view, of two knights fighting around two square pits. The game must have two players. Each player controls both the movement and sword of their knight with a single joystick. The object is to kill the opposing knight by hitting him with your sword or by forcing him to fall into one of the pits.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Tim Skelly</developer>
+      <publisher>Vectorbeam</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./maze.zip</path>
+      <name>Amazing Maze</name>
+      <desc>Each player (up to 2 people may play at a time, 2-player mode is more fun), controls a little geometric shape. Each player starts at opposite sides of the maze. The object is to get to the point where the other player started, before they get to where you started. You use a joystick to guide your 'character' through the maze. The game is time based, and you score a point for each maze you beat faster than your opponent (or the computer player if you are going solo). The factory setting is for a 90 second game, but this is operator adjustable. The graphics are done in monochrome white on black. With no detail on anything. The maze walls are only a pixel thick, while the characters themselves (simple shapes), are not much bigger. The mazes are not stylized in anyway. They look exactly like the kind of maze you would do with a paper and pen.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer>Midway</developer>
+      <publisher>Midway</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./asteroid.zip</path>
+      <name>Asteroids</name>
+      <desc>Asteroids © 1979 Atari, Incorporated.
+
+Asteroids is a legendary, genre defining game - in an era replete with genre-defining classics - in which a single player takes control of a spaceship trapped in the middle of an asteroid belt. A number of large, slow-moving asteroids drift randomly around the play area and must be shot by the player. When shot, the asteroids will break into a number of smaller pieces which must also be shot until eventually, all of the asteroids and fragments will be destroyed and the next wave begins. 
+
+Asteroids introduced real-world physics to video games for the first time, with speed and inertia all adding to the player&amp;#039;s problems. As well as the inertia of the player&amp;#039;s ship - forcing the player to allow for the ship slowing down and speeding up whenever the Thrust button was utilized - shot asteroids would often send fragments flying in seemingly random directions, and at varying and unpredictable speeds. 
+
+As well as the ever-present asteroids, flying saucers also make a regular appearance. These move horizontally and diagonally around the screen, firing at the player&amp;#039;s ship, and must be quickly destroyed. They are destroyed when hit by the player&amp;#039;s shot, when hit by a saucer&amp;#039;s shot or when they collide with an asteroid. 
+
+CAST OF CHARACTERS - 
+
+Spaceship - This is you, the player. You can rotate 360 degrees, fire bullets, thrust forward in any direction, and hyperspace to safety if you feel you are in danger. 
+
+Large Asteroid - These are the large rocks that fill the screen at the beginning of each stage. Hitting one with a bullet will break it apart into two Medium Asteroids. 
+
+Medium Asteroid - Slightly smaller than Large Asteroids, but faster moving. Shooting one of these will result in two Small Asteroids. 
+
+Small Asteroid - These are the smallest and fastest rocks on the screen. If a bullet hits one of these, it will vaporize. 
+
+Large Saucer - Large flying saucers appear on the screen from time to time, randomly firing shots around the screen. They pose a minor threat. 
+
+Small Saucer - The smaller flying saucers are deadlier than the large variety. They are much more precise with their shots, and are more likely to kill you. Eliminate them quickly or get out of their range.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Shoot'em Up</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./abaseb.zip</path>
+      <name>Atari Baseball</name>
+      <desc>The most realistic video basbeall attraction ever created.
+Instant response Trak-Ball controls maneuver runners, ourfielders and control throwing direction for realistic action and total player involvement.
+1 or 2 players can select 4 different hitting plays, 4 different pitches, offering an endless variety of game challenges.
+Add-a-coin accumulator offers additional innings.
+Unique stand-up table design ideal for any size location.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Sports / Baseball</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./avalnche.zip</path>
+      <name>Avalanche</name>
+      <desc>Avalanche is a 2-D game of skill. You control a multi-storied platform with a spinner-knob. Your goal is to prevent the falling rocks from ever reaching the ground. There are six rows of rocks to deal with. You start with a 6-storied platform and you lose one platform per row of rocks cleared. You score points for those rocks you prevent from reaching the ground. Of course, the farther the row of rocks, the smaller and faster they become. Your ultimate goal is to get enough points so that you can continue your game should you lose your first one. Get your hard hat out and prepare to catch some rogue rocks.</desc>
+      <image />
+      <video />
+      <rating>0.5</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./barricad.zip</path>
+      <name>Barricade</name>
+      <desc>A 4-player game where players move their cursors across the screen to create walls to try and surround their opponents and force them to crash.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer>RamTeK</developer>
+      <publisher>RamTek</publisher>
+      <genre>Action</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./barrier.zip</path>
+      <name>Barrier</name>
+      <desc>The basic idea behind Barrier is that you have to move your little marker to the end of a grid, while avoiding the other markers. Actually that is the only idea. The game is played on a 3x9 grid that is displayed at angle to make it appear to be in 3-D. You move your little triangle around on the grid, while attempting to avoid the little diamonds that are also moving around on the grid. Reaching the end of the grid teleports you back to the front of the grid.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790801T000000</releasedate>
+      <developer>Vectorbeam</developer>
+      <publisher>Vectorbeam</publisher>
+      <genre>Puzzle-Game</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./blasto.zip</path>
+      <name>Blasto</name>
+      <desc>Your are in control of your spaceship as you maneuver it through a mine field. Beat the clock to explode all the mines. With two players, Blasto gets even more challenging, more exciting, as each one battles for the most mines and ultimately-for each other!</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Gremlin Interactive</developer>
+      <publisher>Gremlin Interactive</publisher>
+      <genre>Action</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./mineswpr.zip</path>
+      <name>Minesweeper</name>
+      <desc>This game was two player only, you must have a real live person to play against, or else the other players boat will head directly for the bottom wall, which doesn't make for a very interesting game. Each player moves their little boat around leaving a solid line of mines behind them. All moves are made on an invisible grid, so you can only turn at 90 degree angles. To win you must last longer than your opponent before hitting something (first person to hit something loses). One good strategy is to try and box your opponent in to a small section of the screen, and then just move carefully until they crash. Pushing backwards on the stick will cause you to crash into your own mines, so avoid that at all cost.
+</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19770101T000000</releasedate>
+      <developer>Amutech</developer>
+      <publisher>Bwb</publisher>
+      <genre>Action / Labyrinth</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./invaders.zip</path>
+      <name>Space Invaders / Space Invaders M</name>
+      <desc>The most influential video game of all time. A single player moves an armed 'base' to the left or right along the bottom of the screen and fires at the endless waves of aliens that tirelessly parade across the screen towards earth.
+There are 4 buildings (shields) at the bottom of the screen behind which the player can hide, but these will eventually be destroyed by enemy missiles or by direct contact with the invaders themselves. Player shots will also destroy shields.
+The descent of the aliens accelerates as they are eliminated, making them more difficult to hit. A flying saucer will fly across the top of the screen at regular intervals and can be fired for extra points.</desc>
+      <image />
+      <video />
+      <rating>0.9</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Taito</developer>
+      <publisher>Taito</publisher>
+      <genre>Shooter / Space Invaders Like</genre>
+      <players>1-2</players>
+      <playcount>1</playcount>
+      <lastplayed>20230202T202743</lastplayed>
+    </game>
+    <game>
+      <path>./galaxian.zip</path>
+      <name>Galaxian</name>
+      <desc>Galaxian is a legendary single-screen shoot-em-up that took everything that made Taito's ground-breaking "Space Invaders" so good, and improved upon it on every level. Each screen starts with a wave of multi-colored aliens moving left and right at the top of the screen; the aliens quickly break ranks and start dive-bombing the Galaxip (player's ship) - either in single units or in groups of 3 - dropping multiple missiles as they descend. All of the aliens need to be destroyed before the player can progress to the next wave. </desc>
+      <image />
+      <video />
+      <rating>0.9</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Namco</developer>
+      <publisher>Namco</publisher>
+      <genre>Shoot'em Up</genre>
+      <players>1-2</players>
+      <playcount>5</playcount>
+      <lastplayed>20230211T143125</lastplayed>
+    </game>
+    <game>
+      <path>./atarifb.zip</path>
+      <name>Atari Football</name>
+      <desc>An old black and white American football game where the player characters are represented as X's and O's. Players select either offensive or defensive plays and then control one of the characters on each team by rolling a trackball.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Sports</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./bbonk.zip</path>
+      <name>Bigfoot Bonkers</name>
+      <desc>This game was 2-player only, you must have a live human opponent to play against, or else the other players mouse (the games promotional material said the character was a mouse), will go straight into a wall, making for a very quick and boring game. Each player moves their mouse around leaving a solid line behind them. All moves are made on an invisible grid, so you can only turn at 90 degree angles. Scattered around the gameboard are several 'fee' that you must avoid, as hitting a foot is just like smashing into a wall or a line. To win you must last longer than your opponent before hitting something (first person to hit something loses). One good strategy is to try and box your opponent in to a small section of the screen, and then just move carefully until they crash. Pushing backwards on the stick will cause you to crash into your own line, so avoid that at all cost.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer />
+      <publisher>Meadows Games, Inc.</publisher>
+      <genre>Action / Labyrinth</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./deadeye.zip</path>
+      <name>Dead Eye</name>
+      <desc>An old and challenging shoot'em up where the player controls a cowboy named 'Dead Eye' to shoots at coins tossed into the air and the birds, you must keep shooting your gun to the flip coin and only hitting the top and both sides of the borders with he coin and without crashing, to earn points.</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Meadows</developer>
+      <publisher>Konami</publisher>
+      <genre>Lightgun Shooter</genre>
+      <players>1-4</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./galaxia.zip</path>
+      <name>Galaxia</name>
+      <desc>Battle space aliens and avoid their suicidal attacks to survive in the world of Galaxian, Namco Bandai's first installment in the Galaxian franchise.</desc>
+      <image />
+      <video />
+      <rating>0.4</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Zaccaria</developer>
+      <publisher>Zaccaria</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./seawolf.zip</path>
+      <name>Sea Wolf</name>
+      <desc>The game screen is a side view of a underwater scene (with the surface towards the top). You control a crosshair at the surface level. The object is to shoot as many ships as possible, before the time runs out. Your torpedoes are launched from the bottom of the screen, and must move upwards to hit the enemy ships (while avoiding the mines that float at different levels of the water). Your submarine can shoot 5 shots before it has to reload (an automatic action that takes about a second). Your game will be extended if you reach a certain score before time runs out (the score is operator adjustable).</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19760101T000000</releasedate>
+      <developer />
+      <publisher>Dave Nutting Associates</publisher>
+      <genre>Shooter</genre>
+      <players>1</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./skydiver.zip</path>
+      <name>Sky Diver</name>
+      <desc>Skydiver © 1978 Atari.
+
+This is quite a fun game, where you score points for landing on an ever decreasing patch of &amp;#039;good&amp;#039; land. Why &amp;#039;good&amp;#039;? As you descend without opening your parachute your landing point becomes smaller, but the points become higher, just don&amp;#039;t leave pulling the ripcord too late because the Newtonian laws concerning gravity is working against you. Each time you successfully land the plane goes lower.</desc>
+      <image />
+      <video />
+      <rating>0.7</rating>
+      <releasedate>19780101T000000</releasedate>
+      <developer>Atari</developer>
+      <publisher>Atari</publisher>
+      <genre>Sports</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./spaceg.zip</path>
+      <name>Space Guerrilla</name>
+      <desc>Your city is under attack! The alien invasion has begun. Army forces have equipped you with the last anti-aircraft tank in the mission to defend the city and avoid his destruction and stop the enemy expansion. You must eliminate all aliens spaceships, but your task will not be easy because as you progress through the level, the enemy attack pattern varies and some spaceships employ a kamikaze attack; the accuracy and his expertise-like soldier will be tested. Good Luck!</desc>
+      <image />
+      <video />
+      <rating>0.3</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Omori Electric Co.</developer>
+      <publisher>Omori Electric Co., Ltd.</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+    <game>
+      <path>./yosakdon.zip</path>
+      <name>Yosaku To Donbei</name>
+      <desc>In Yosaku to Donbei you play a little farmer guy, who is attempting to shoot down the crows out of his tree. Gameplay is identical to that of "Space Invaders". A large bird replaces the UFO that goes over the top of the screen from time to time. While a lumberjack will chop out a section of the tree every time the birds reach the side of the screen (lowering them closer to the bottom). The only real gameplay difference is that the birds come in a pyramid pattern, as opposed to the rectangle pattern of "Space Invaders". This serves to make the game much easier.</desc>
+      <image />
+      <video />
+      <rating>0.1</rating>
+      <releasedate>19790101T000000</releasedate>
+      <developer>Wing Co.</developer>
+      <publisher>Wing</publisher>
+      <genre>Shooter</genre>
+      <players>1-2</players>
+      <playcount>0</playcount>
+      <lastplayed />
+    </game>
+  </gameList>
+</root>

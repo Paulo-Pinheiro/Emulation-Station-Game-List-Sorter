@@ -2,7 +2,7 @@
   "profiles": {
     "EmulationStationGameListSorter": {
       "commandName": "Project",
-      "commandLineArgs": "years --gamelist C:\\SoftwareDev\\EmulationStationGameListSorter\\GameList.xml --outputfile custom-70s.cfg --rompath C:/ROMS/mame"
+      "commandLineArgs": "rating --xml true --low 0.8 --high 1 --gamelist C:\\SoftwareDev\\EmulationStationGameListSorter\\test70.xml --outputfile test70.cfg  --rompath C:/ROMS/mame"
     }
   }
 }
