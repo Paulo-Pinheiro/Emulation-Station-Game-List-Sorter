@@ -12,14 +12,14 @@ List<Game>? list = MameGameList?.GameList.GetGamesByRating(0.9);
 
 List<Game>? xlist = MameGameList?.GameList.GetGamesByGenre("fight");
 
-Games = MameGameList?.SaveCollectionForYears("custom-70s.cfg", @"C:/ROMS/mame/", 1970, 1980);
+Games = MameGameList?.SaveCollectionByReleaseYears("custom-70s.cfg", @"C:/ROMS/mame/", 1970, 1980);
 Console.WriteLine($"Games written: {Games} ");
 
-Games = MameGameList?.SaveCollectionForYears("custom-80s.cfg", @"C:/ROMS/mame/", 1980, 1990);
+Games = MameGameList?.SaveCollectionByReleaseYears("custom-80s.cfg", @"C:/ROMS/mame/", 1980, 1990);
 Console.WriteLine($"Games written: {Games} ");
 
-Games = MameGameList?.SaveCollectionForYears("custom-90s.cfg", @"C:/ROMS/mame/", 1990, 2000);
+Games = MameGameList?.SaveCollectionByReleaseYears("custom-90s.cfg", @"C:/ROMS/mame/", 1990, 2000);
 Console.WriteLine($"Games written: {Games} ");
 
-Games = MameGameList?.SaveCollectionForYears("custom-00s.cfg", @"C:/ROMS/mame/", 2000, 3000);
+Games = MameGameList?.SaveCollectionByReleaseYears("custom-00s.cfg", @"C:/ROMS/mame/", 2000, 3000);
 Console.WriteLine($"Games written: {Games} ");

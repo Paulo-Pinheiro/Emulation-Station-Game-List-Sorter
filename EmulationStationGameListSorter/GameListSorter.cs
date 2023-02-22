@@ -1,6 +1,8 @@
 ﻿// Licensed under Apache Licence v3.0
 // 2023 Paulo Pinheiro
 
+using System.Collections.Generic;
+using System.IO;
 using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Serialization;
@@ -13,19 +15,45 @@ namespace EmulationStationGameListSorter
         [XmlElement("gameList")]
         public GameList GameList { get; set; } = new GameList();
 
-        public int SaveCollectionForYears(string filename, string path, int start, int end)
+        static protected int SaveCollection(List<Game> games, string filename, string pathROMs)
         {
-            List<Game> games = GameList.GetGamesByReleaseYear(start, end);
-
-            using (StreamWriter file = new(filename, append: false))
+            using (StreamWriter file = new StreamWriter(filename, append: false))
             {
                 foreach (Game game in games)
                 {
-                    file.WriteLine(path + Path.GetFileName(game.Path));
+                    file.WriteLine(pathROMs + Path.GetFileName(game.Path));
                 }
             }
-         
+
             return games.Count;
+        }
+
+        public int SaveCollectionByReleaseYears(string filename, string pathROMs, int start, int end)
+        {
+            List<Game> games = GameList.GetGamesByReleaseYear(start, end);
+
+            return SaveCollection(games, filename, pathROMs);
+        }
+
+        public int SaveCollectionByGenre(string filename, string pathROMs, string genre)
+        {
+            List<Game> games = GameList.GetGamesByGenre(genre);
+
+            return SaveCollection(games, filename, pathROMs);
+        }
+
+        public int SaveCollectionByDeveloper(string filename, string pathROMs, string developer)
+        {
+            List<Game> games = GameList.GetGamesByDeveloper(developer);
+
+            return SaveCollection(games, filename, pathROMs);
+        }
+
+        public int SaveCollectionByPublisher(string filename, string pathROMs, string publisher)
+        {
+            List<Game> games = GameList.GetGamesByPublisher(publisher);
+
+            return SaveCollection(games, filename, pathROMs);
         }
 
         static public GameListSorter? DeserializeXml<T>(string gameListFilename)
