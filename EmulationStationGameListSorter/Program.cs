@@ -1,12 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Licensed under Apache Licence v3.0
+// 2023 Paulo Pinheiro
 using EmulationStationGameListSorter;
-using System.Globalization;
 
 Console.WriteLine("Emulation Station Geme List Sorter");
 
 GameListSorter? MameGameList = GameListSorter.DeserializeXml<GameListSorter>(@"C:\SoftwareDev\EmulationStationGameListSorter\GameList.xml");
 
 int? Games = 0;
+
+List<Game>? list = MameGameList?.GameList.GetGamesByRating(0.9);
+
+List<Game>? xlist = MameGameList?.GameList.GetGamesByGenre("fight");
 
 Games = MameGameList?.SaveCollectionForYears("custom-70s.cfg", @"C:/ROMS/mame/", 1970, 1980);
 Console.WriteLine($"Games written: {Games} ");

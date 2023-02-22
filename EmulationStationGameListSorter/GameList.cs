@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Licensed under Apache Licence v3.0
+// 2023 Paulo Pinheiro
 using System.Xml.Serialization;
 using System.Xml;
-using System.Xml.Linq;
 using System.Globalization;
 
 namespace EmulationStationGameListSorter
@@ -15,14 +11,47 @@ namespace EmulationStationGameListSorter
         [XmlElement("game")]
         public List<Game> Games { get; set; } = new List<Game>();
 
-        public List<string> GetuniqueGenres()
+        public List<string> GetUniqueGenres()
         {
             return Games.Select(o => o.Genre).Distinct().ToList();
         }
 
-        public List<Game> GetReleaseYearGames(int start, int end)
+        public List<string> GetUniquePublishers()
+        {
+            return Games.Select(o => o.Publisher).Distinct().ToList();
+        }
+
+        public List<string> GetUniqueDevelopers()
+        {
+            return Games.Select(o => o.Developer).Distinct().ToList();
+        }
+
+        public List<Game> GetGamesByReleaseYear(int start, int end)
         {
             return Games.FindAll(o => (o.ReleaseYear >= start && o.ReleaseYear < end));
+        }
+
+        public List<Game> GetGamesByRating(double value)
+        {
+            return Games.FindAll(o => (o.Rating >= value));
+        }
+
+        public List<Game> GetGamesByGenre(string value)
+        {
+            // Look for a substring match only
+            return Games.FindAll(o => o.Genre.Contains(value, StringComparison.CurrentCultureIgnoreCase));
+        }
+
+        public List<Game> GetGamesByPublisher(string value)
+        {
+            // Look for a substring match only
+            return Games.FindAll(o => o.Publisher.Contains(value, StringComparison.CurrentCultureIgnoreCase));
+        }
+
+        public List<Game> GetGamesByDeveloper(string value)
+        {
+            // Look for a substring match only
+            return Games.FindAll(o => o.Developer.Contains(value, StringComparison.CurrentCultureIgnoreCase));
         }
     }
 
@@ -44,7 +73,7 @@ namespace EmulationStationGameListSorter
         public string Video { get; set; } = string.Empty;
 
         [XmlElement("rating")]
-        public float Rating { get; set; }   
+        public double Rating { get; set; }   
 
         [XmlElement("releasedate")]
         public string ReleaseDate { get; set; } = string.Empty;

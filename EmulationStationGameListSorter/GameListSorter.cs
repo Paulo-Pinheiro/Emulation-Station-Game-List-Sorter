@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
-using System.Xml;
+﻿// Licensed under Apache Licence v3.0
+// 2023 Paulo Pinheiro
+
 using System.Text.RegularExpressions;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace EmulationStationGameListSorter
 {
@@ -17,7 +15,7 @@ namespace EmulationStationGameListSorter
 
         public int SaveCollectionForYears(string filename, string path, int start, int end)
         {
-            List<Game> games = GameList.GetReleaseYearGames(start, end);
+            List<Game> games = GameList.GetGamesByReleaseYear(start, end);
 
             using (StreamWriter file = new(filename, append: false))
             {
