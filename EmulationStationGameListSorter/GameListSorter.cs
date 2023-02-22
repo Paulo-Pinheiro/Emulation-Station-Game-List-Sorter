@@ -17,15 +17,28 @@ namespace EmulationStationGameListSorter
 
         static protected int SaveCollection(List<Game> games, string filename, string pathROMs)
         {
-            using (StreamWriter file = new StreamWriter(filename, append: false))
+            int result = 0;
+           
+            // check validity of input
+            if (Path.GetFileName(filename) != null)
             {
-                foreach (Game game in games)
+                using (StreamWriter file = new StreamWriter(filename, append: false))
                 {
-                    file.WriteLine(pathROMs + Path.GetFileName(game.Path));
-                }
-            }
+                    foreach (Game game in games)
+                    {
+                        string? romFilename = Path.GetFileName(game.Path);
 
-            return games.Count;
+                        if (romFilename is not null)
+                        {
+                            string romLocation = Path.Combine(pathROMs, romFilename);
+                            file.WriteLine(romLocation);
+                            result++;
+                        }
+                    }
+                }
+            }    
+
+            return result;
         }
 
         public int SaveCollectionByReleaseYears(string filename, string pathROMs, int start, int end)

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EmulationStationGameListSorter": {
+      "commandName": "Project",
+      "commandLineArgs": "years --gamelist C:\\SoftwareDev\\EmulationStationGameListSorter\\GameList.xml --outputfile custom-70s.cfg --rompath C:/ROMS/mame"
+    }
+  }
+}
