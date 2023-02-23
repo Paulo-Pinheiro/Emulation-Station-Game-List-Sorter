@@ -49,7 +49,6 @@ internal class Program
         var highOption = new Option<double>(name: "--high", description: "The high year limit (less than).") { IsRequired = true };
         var xmlOption = new Option<bool>(name: "--xml", description: "Create xml file. Use it as the game list xml file if you would like to filter the already filtered collections.", getDefaultValue: () => false) { IsRequired = false };
 
-
         //-------------------------------------------------------------------------------------------------------------------//
         // Commands
         //-------------------------------------------------------------------------------------------------------------------//
@@ -64,7 +63,7 @@ internal class Program
 
         genreCommand.SetHandler((filter, gamelist, outputfile, rompath, xmlOption) =>
             {
-                ESGameListSorterByGenre(filter, gamelist, outputfile, rompath, xmlOption);
+                GameListSorter.SortByGenre(gamelist, filter, outputfile, rompath, xmlOption);
             },
            filterOption,
            gameListOption,
@@ -84,7 +83,7 @@ internal class Program
 
         publisherCommand.SetHandler((filter, gamelist, outputfile, rompath, xmlOption) =>
             {
-                ESGameListSorterByPublisher(filter, gamelist, outputfile, rompath, xmlOption);
+                GameListSorter.SortByPublisher(gamelist, filter, outputfile, rompath, xmlOption);
             },
            filterOption,
            gameListOption,
@@ -104,7 +103,7 @@ internal class Program
 
         developerCommand.SetHandler((filter, gamelist, outputfile, rompath, xmlOption) =>
             {
-                ESGameListSorterByDeveloper(filter, gamelist, outputfile, rompath, xmlOption);
+                GameListSorter.SortByDeveloper(gamelist, filter, outputfile, rompath, xmlOption);
             },
             filterOption,
             gameListOption,
@@ -125,7 +124,7 @@ internal class Program
 
         ratingCommand.SetHandler((low, high, gamelist, outputfile, rompath, xml) =>
             {
-                ESGameListSorterByRating(low, high, gamelist, outputfile, rompath, xml);
+                GameListSorter.SortByRating(gamelist, low, high, outputfile, rompath, xml);
             },
             lowOption,
             highOption,
@@ -147,7 +146,7 @@ internal class Program
 
         yearsCommand.SetHandler((low, high, gamelist, outputfile, rompath, xml) =>
             {
-                ESGameListSorterByYears((int)low, (int)high, gamelist, outputfile, rompath, xml);
+                GameListSorter.SortByReleaseYears(gamelist, low, high, outputfile, rompath, xml);
             },
             lowOption,
             highOption,
@@ -170,48 +169,4 @@ internal class Program
         return rootCommand.Invoke(args);
     }
 
-    static void ESGameListSorterByGenre(string genre, string gameList, string outputFile, string romPath, bool xml)
-    {
-        GameListSorter? MameGameList = GameListSorter.DeserializeXml(gameList);
-
-        int? gamesSaved = MameGameList?.SaveCollectionByGenre(outputFile, romPath, genre, xml);
-
-        Console.WriteLine($"Games written: {gamesSaved}");
-    }
-
-    static void ESGameListSorterByPublisher(string publisher, string gameList, string outputFile, string romPath, bool xml)
-    {
-        GameListSorter? MameGameList = GameListSorter.DeserializeXml(gameList);
-
-        int? gamesSaved = MameGameList?.SaveCollectionByPublisher(outputFile, romPath, publisher, xml);
-
-        Console.WriteLine($"Games written: {gamesSaved}");
-    }
-
-    static void ESGameListSorterByDeveloper(string developer, string gameList, string outputFile, string romPath, bool xml)
-    {
-        GameListSorter? MameGameList = GameListSorter.DeserializeXml(gameList);
-
-        int? gamesSaved = MameGameList?.SaveCollectionByDeveloper(outputFile, romPath, developer, xml);
-
-        Console.WriteLine($"Games written: {gamesSaved}");
-    }
-
-    static void ESGameListSorterByRating(double low, double high, string gameList, string outputFile, string romPath, bool xml)
-    {
-        GameListSorter? MameGameList = GameListSorter.DeserializeXml(gameList);
-
-        int? gamesSaved = MameGameList?.SaveCollectionByRating(outputFile, romPath, low, high, xml);
-
-        Console.WriteLine($"Games written: {gamesSaved}");
-    }
-
-    static void ESGameListSorterByYears(int low, int high, string gameList, string outputFile, string romPath, bool xml)
-    {
-        GameListSorter? MameGameList = GameListSorter.DeserializeXml(gameList);
-
-        int? gamesSaved = MameGameList?.SaveCollectionByReleaseYears(outputFile, romPath, low, high, xml);
-
-        Console.WriteLine($"Games written: {gamesSaved}");
-    }
 }

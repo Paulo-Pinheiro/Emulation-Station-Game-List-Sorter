@@ -15,79 +15,67 @@ namespace EmulationStationGameListSorter
         [XmlElement("gameList")]
         public GameList Games { get; set; } = new GameList();
 
-        static protected int SaveCollection(List<Game> games, string filename, string pathROMs)
+        static public void SortByGenre(string gameList, string genre, string outputFile, string romPath, bool xml)
         {
-            int result = 0;
-           
-            // check validity of input
-            if (Path.GetFileName(filename) != null)
-            {
-                using (StreamWriter file = new StreamWriter(filename, append: false))
-                {
-                    foreach (Game game in games)
-                    {
-                        string? romFilename = Path.GetFileName(game.Path);
+            GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
-                        if (romFilename is not null)
-                        {
-                            string romLocation = Path.Combine(pathROMs, romFilename);
-                            file.WriteLine(romLocation);
-                            result++;
-                        }
-                    }
-                }
-            }    
+            GameList? filteredGames = MameGameList?.Games.GetGamesBy(GameList.Selection.Genre, genre);
+            int? gamesSaved         = filteredGames?.SaveToCollection(outputFile, romPath);
+            
+            if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));  
 
-            return result;
+            Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
         }
 
-        public int SaveCollectionByGenre(string filename, string pathROMs, string genre, bool xml)
+        static public void SortByPublisher(string gameList, string publisher, string outputFile, string romPath, bool xml)
         {
-            List<Game> games = Games.GetGamesByGenre(genre);
+            GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
-            if (xml) SaveCollectionToXml(filename, games);
+            GameList? filteredGames = MameGameList?.Games.GetGamesBy(GameList.Selection.Publisher, publisher);
+            int? gamesSaved         = filteredGames?.SaveToCollection(outputFile, romPath);
 
-            return SaveCollection(games, filename, pathROMs);
+            if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
+
+            Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
         }
 
-        public int SaveCollectionByDeveloper(string filename, string pathROMs, string developer, bool xml)
+        static public void  SortByDeveloper(string gameList, string developer, string outputFile, string romPath, bool xml)
         {
-            List<Game> games = Games.GetGamesByDeveloper(developer);
+            GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
-            if(xml) SaveCollectionToXml(filename, games);
+            GameList? filteredGames = MameGameList?.Games.GetGamesBy(GameList.Selection.Developer, developer);
+            int? gamesSaved = filteredGames?.SaveToCollection(outputFile, romPath);
 
-            return SaveCollection(games, filename, pathROMs);
+            if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
+
+            Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
         }
 
-      
-        public int SaveCollectionByPublisher(string filename, string pathROMs, string publisher, bool xml)
+        static public void SortByRating(string gameList, double low, double high, string outputFile, string romPath, bool xml)
         {
-            List<Game> games = Games.GetGamesByPublisher(publisher);
+            GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
-            if (xml) SaveCollectionToXml(filename, games);
+            GameList? filteredGames = MameGameList?.Games.GetGamesByRange(GameList.Selection.Rating, low, high);
+            int? gamesSaved = filteredGames?.SaveToCollection(outputFile, romPath);
 
-            return SaveCollection(games, filename, pathROMs);
+            if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
+
+            Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
         }
 
-        public int SaveCollectionByRating(string filename, string pathROMs, double start, double end, bool xml)
+        static public void SortByReleaseYears(string gameList, double low, double high, string outputFile, string romPath, bool xml)
         {
-            List<Game> games = Games.GetGamesByRating(start, end);
+            GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
-            if (xml) SaveCollectionToXml(filename, games);
+            GameList? filteredGames = MameGameList?.Games.GetGamesByRange(GameList.Selection.ReleaseYear, low, high);
+            int? gamesSaved = filteredGames?.SaveToCollection(outputFile, romPath);
 
-            return SaveCollection(games, filename, pathROMs);
-        }
+            if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
 
-        public int SaveCollectionByReleaseYears(string filename, string pathROMs, int start, int end, bool xml)
-        {
-            List<Game> games = Games.GetGamesByReleaseYear(start, end);
+            Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+        }   
 
-            if (xml) SaveCollectionToXml(filename, games);
-
-            return SaveCollection(games, filename, pathROMs);
-        }
-
-        static public GameListSorter? DeserializeXml(string gameListFilename)
+        static public GameListSorter? LoadGameListXml(string gameListFilename)
         {
             // Read the file as one long string.
             string gameListXml = System.IO.File.ReadAllText(gameListFilename);
@@ -108,23 +96,5 @@ namespace EmulationStationGameListSorter
             }
         }
 
-        private static void SaveCollectionToXml(string filename, List<Game> games)
-        {
-            GameListSorter sorted = new GameListSorter();
-            GameList gameList = new GameList();
-            gameList.Games = games;
-            sorted.Games = gameList;
-            SerializeToXml(sorted, Path.ChangeExtension(filename, ".xml"));
-        }
-
-        private static void SerializeToXml(GameListSorter anyobject, string xmlFilePath)
-        {
-            XmlSerializer xmlSerializer = new XmlSerializer(anyobject.GetType());
-
-            using (StreamWriter writer = new StreamWriter(xmlFilePath))
-            {
-                xmlSerializer.Serialize(writer, anyobject);
-            }
-        }
     }
 }
