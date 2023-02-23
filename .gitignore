@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Tests/TestFiles/GenreFiltered.cfg
+/Tests/TestFiles/gamelist.xml
+/Tests/TestFiles/Filtered.xml
+/Tests/TestFiles/Filtered.cfg
