@@ -6,6 +6,7 @@ using System.Xml.Serialization;
 
 namespace EmulationStationGameListSorter
 {
+    [XmlRoot("game")]
     public class Game
     {
         [XmlElement("path")]

@@ -15,7 +15,7 @@ namespace EmulationStationGameListSorter
         [XmlElement("gameList")]
         public GameList Games { get; set; } = new GameList();
 
-        static public void SortByGenre(string gameList, string genre, string outputFile, string romPath, bool xml)
+        static public int? SortByGenre(string gameList, string genre, string outputFile, string romPath, bool xml)
         {
             GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
@@ -25,9 +25,10 @@ namespace EmulationStationGameListSorter
             if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));  
 
             Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+            return gamesSaved;
         }
 
-        static public void SortByPublisher(string gameList, string publisher, string outputFile, string romPath, bool xml)
+        static public int? SortByPublisher(string gameList, string publisher, string outputFile, string romPath, bool xml)
         {
             GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
@@ -37,9 +38,10 @@ namespace EmulationStationGameListSorter
             if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
 
             Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+            return gamesSaved;
         }
 
-        static public void  SortByDeveloper(string gameList, string developer, string outputFile, string romPath, bool xml)
+        static public int?  SortByDeveloper(string gameList, string developer, string outputFile, string romPath, bool xml)
         {
             GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
@@ -49,9 +51,10 @@ namespace EmulationStationGameListSorter
             if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
 
             Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+            return gamesSaved;
         }
 
-        static public void SortByRating(string gameList, double low, double high, string outputFile, string romPath, bool xml)
+        static public int? SortByRating(string gameList, double low, double high, string outputFile, string romPath, bool xml)
         {
             GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
@@ -61,9 +64,10 @@ namespace EmulationStationGameListSorter
             if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
 
             Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+            return gamesSaved;
         }
 
-        static public void SortByReleaseYears(string gameList, double low, double high, string outputFile, string romPath, bool xml)
+        static public int? SortByReleaseYears(string gameList, double low, double high, string outputFile, string romPath, bool xml)
         {
             GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
 
@@ -73,6 +77,7 @@ namespace EmulationStationGameListSorter
             if (xml) filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
 
             Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+            return gamesSaved;
         }   
 
         static public GameListSorter? LoadGameListXml(string gameListFilename)
