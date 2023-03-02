@@ -82,7 +82,10 @@ namespace EmulationStationGameListSorter
 
         static public int? SortByRoms(string gameList, string rompath)
         {
-            string fDir  = Path.GetDirectoryName(gameList);
+            string? fDir  = Path.GetDirectoryName(gameList);
+
+            if (fDir == null) fDir = string.Empty;
+
             string fName = Path.GetFileNameWithoutExtension(gameList);
             string fExt  = Path.GetExtension(gameList);
             string outputFile =  Path.Combine(fDir, String.Concat(fName, "-clean", fExt));

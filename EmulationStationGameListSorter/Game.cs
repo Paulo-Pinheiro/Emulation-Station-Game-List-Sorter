@@ -10,7 +10,7 @@ namespace EmulationStationGameListSorter
     public class Game
     {
         [XmlElement("path")]
-        public string? Path { get; set; }
+        public string Path { get; set; } = string.Empty;
 
         [XmlElement("name")]
         public string Name { get; set; } = string.Empty;
@@ -48,16 +48,18 @@ namespace EmulationStationGameListSorter
         [XmlElement("lastplayed")]
         public string LastPlayed { get; set; } = string.Empty;
 
+        [XmlElement("favorite")]
+        public string Favorite { get; set; } = string.Empty;
+
         public int ReleaseYear
         {
             get
             {
-                DateTime date;
 
                 if (DateTime.TryParseExact(ReleaseDate, "yyyyMMddTHHmmss",
                                            CultureInfo.InvariantCulture,
                                            DateTimeStyles.None,
-                                           out date))
+                                           out DateTime date))
                 {
                     return date.Year;
                 }
