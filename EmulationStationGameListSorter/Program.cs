@@ -156,6 +156,20 @@ internal class Program
             xmlOption);
 
         //-------------------------------------------------------------------------------------------------------------------//
+        Command cleanCommand = new Command("clean", "Removes roms not in the rompath given.")
+        {
+            gameListOption,
+            romPathOption
+        };
+
+        cleanCommand.SetHandler((gamelist, rompath) =>
+        {
+            GameListSorter.SortByRoms(gamelist, rompath);
+        },
+            gameListOption,
+            romPathOption);
+
+        //-------------------------------------------------------------------------------------------------------------------//
         // Set Commands
         //-------------------------------------------------------------------------------------------------------------------//
         RootCommand rootCommand = new RootCommand(description: "Creates a custom collection cfg file from an emulation station game list XML file.");
@@ -165,6 +179,7 @@ internal class Program
         rootCommand.AddCommand(developerCommand);
         rootCommand.AddCommand(ratingCommand);
         rootCommand.AddCommand(yearsCommand);
+        rootCommand.AddCommand(cleanCommand);
 
         return rootCommand.Invoke(args);
     }

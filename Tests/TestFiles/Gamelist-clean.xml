@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <game>
+    <path>./vr.zip</path>
+    <name>Virtua Racing</name>
+    <desc>Sega once again prove themselves to be kings of the racing genre with the superb and innovative "Virtua Racing". This was the first racing game to be fully rendered with shaded, filled polygon graphics (the first game to ever be rendered in filled polygons was Atari's incredible 1983 release, "I, Robot").
+
+As well as the sublime graphics and superb playability, Virtua Racing also allowed players to switch camera views to suit their preferred style of play. The game features 3 well designed and varied courses; 'Big Forest', 'Bay Bridge' and 'Acropolis'.</desc>
+    <image />
+    <video />
+    <rating>0.9</rating>
+    <releasedate>19920101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>Race 1st Pers. view</genre>
+    <players>1</players>
+    <playcount>1</playcount>
+    <lastplayed>20230103T235851</lastplayed>
+  </game>
+  <game>
+    <path>./gngt.zip</path>
+    <name>Ghosts'n Goblins</name>
+    <desc>Ghosts 'n Goblins is a platform game where the player controls a knight, named Sir Arthur, who must defeat zombies, ogres, demons, cyclops, dragons and other monsters in order to rescue Princess Prin Prin, who has been kidnapped by Satan, king of Demon World. Along the way the player can pick up new weapons, bonuses and extra suits of armor that can help in this task.
+
+The player can only be hit twice before losing a life. If the player loses a life, they are returned to the start of the level, or the halfway point if they have managed to get that far. Furthermore, each life can only last a certain length of time. After defeating the final boss, the player must then replay the entire game on a higher difficulty level to reach the genuine final battle.</desc>
+    <image />
+    <video />
+    <rating>0.9</rating>
+    <releasedate>19850101T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <playcount>0</playcount>
+    <lastplayed />
+  </game>
+</gameList>

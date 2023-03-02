@@ -1,5 +1,6 @@
 ﻿// Licensed under Apache Licence v3.0
 // 2023 Paulo Pinheiro
+using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -77,6 +78,27 @@ namespace EmulationStationGameListSorter
                 default:
                     newGameList.Games = new List<Game>();
                     break;
+            }
+
+            return newGameList;
+        }
+
+        public GameList GetGamesByRom(string rompath)
+        {
+            GameList newGameList = new GameList();
+
+            foreach(Game game in Games) 
+            {
+                string? gamePath = Path.GetFileName(game.Path);
+
+                if (gamePath != null)
+                {
+                    string path = Path.Combine(rompath, gamePath);
+                    if (File.Exists(path))
+                    {
+                        newGameList.Games.Add(game);
+                    }
+                }
             }
 
             return newGameList;

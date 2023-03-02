@@ -7,8 +7,10 @@ namespace EmulationStationGameListSorter.Tests
     public class GameListSorterTests
     {
         readonly private string gameList = @"./../../../TestFiles/Gamelist.xml";
+        readonly private string gameListclean = @"./../../../TestFiles/Gamelist-clean.xml";
         readonly private string outputFile = @"./../../../TestFiles/Filtered.cfg";
-        readonly private string romPath = " @C:/mame/";
+        readonly private string romPath = "@C:/mame/";
+        readonly private string romPathFiles = @"./../../../TestFiles";
 
 
         [TestMethod()]
@@ -17,7 +19,7 @@ namespace EmulationStationGameListSorter.Tests
             // Filter by genre "sports"
             int? gamesFiltered = GameListSorter.SortByGenre(gameList, "sports", outputFile, romPath, true);
             // Load new filtered game list
-            int? gamesLoaded   = GameListSorter.SortByGenre(Path.ChangeExtension(outputFile, ".xml"), "sports", outputFile, romPath, true);
+            int? gamesLoaded = GameListSorter.SortByGenre(Path.ChangeExtension(outputFile, ".xml"), "sports", outputFile, romPath, true);
             // Number of filtered games must be the same
             Assert.AreEqual(gamesFiltered, gamesLoaded);
             // Number of games written must be the same i.e. one game one line in file
@@ -80,6 +82,17 @@ namespace EmulationStationGameListSorter.Tests
             // Number of games written must be the same i.e. one game one line in file
             int lineCount = File.ReadLines(outputFile).Count();
             Assert.AreEqual(gamesFiltered, lineCount);
+        }
+
+        [TestMethod()]
+        public void SortByRomsTest()
+        {
+            // Filter by exisitng Roms
+            int? gamesFiltered = GameListSorter.SortByRoms(gameList, romPathFiles);
+            // Load new filtered game list
+            int? gamesLoaded = GameListSorter.SortByRoms(gameListclean, romPathFiles);
+
+            Assert.AreEqual(gamesFiltered, 2);
         }
     }
 }

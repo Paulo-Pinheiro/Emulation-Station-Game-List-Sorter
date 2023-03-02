@@ -78,7 +78,26 @@ namespace EmulationStationGameListSorter
 
             Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
             return gamesSaved;
-        }   
+        }
+
+        static public int? SortByRoms(string gameList, string rompath)
+        {
+            string fDir  = Path.GetDirectoryName(gameList);
+            string fName = Path.GetFileNameWithoutExtension(gameList);
+            string fExt  = Path.GetExtension(gameList);
+            string outputFile =  Path.Combine(fDir, String.Concat(fName, "-clean", fExt));
+
+            GameListSorter? MameGameList = GameListSorter.LoadGameListXml(gameList);
+
+            GameList? filteredGames = MameGameList?.Games.GetGamesByRom(rompath);
+
+            filteredGames?.SaveToXml(Path.ChangeExtension(outputFile, ".xml"));
+
+            int? gamesSaved = filteredGames?.Games.Count;
+
+            Console.WriteLine($"File written {outputFile} Games written: {gamesSaved}");
+            return gamesSaved;
+        }
 
         static public GameListSorter? LoadGameListXml(string gameListFilename)
         {
@@ -100,6 +119,5 @@ namespace EmulationStationGameListSorter
                 return result;
             }
         }
-
     }
 }
