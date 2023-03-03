@@ -49,7 +49,7 @@ namespace EmulationStationGameListSorter
         public string LastPlayed { get; set; } = string.Empty;
 
         [XmlElement("favorite")]
-        public string Favorite { get; set; } = string.Empty;
+        public string? Favorite { get; set; }
 
         public int ReleaseYear
         {
